@@ -35,6 +35,7 @@ before_script:
 script:
   # Comments must be outside the command strings below, or the Travis parser
   # will get confused.
+  - ./bootstrap
   - ./autogen.sh
 
   # Build all selected GRUB targets.
