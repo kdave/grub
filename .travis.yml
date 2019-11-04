@@ -18,6 +18,10 @@ addons:
     - python
     - qemu-system
     - unifont
+    - automake
+    - autoconf
+    - autoheader
+    - gettext-tools
 
 env:
   global:
