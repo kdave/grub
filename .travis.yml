@@ -39,6 +39,8 @@ before_script:
 script:
   # Comments must be outside the command strings below, or the Travis parser
   # will get confused.
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq gettext-tools
   - ./bootstrap
   - ./autogen.sh
 
